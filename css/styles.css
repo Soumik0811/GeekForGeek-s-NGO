@@ -1,0 +1,396 @@
+body{
+  font-family: "Overpass";
+  margin:0;
+}
+h1
+{font-family: "Overpass";
+color:white;
+font-size: 2.5rem;
+line-height: 1}
+
+.navbar-brand{
+    padding-top: 1.5% ;
+    margin-left: 5%;
+    font-size: 2.2rem;
+}
+.title{
+  font-size: 2.1rem;
+  font-weight: lighter;
+}
+.navbar-nav
+{
+  justify-content: space-between;
+  padding-top: 1.5% ;
+    margin-right: 10%;
+    font-size: 1.2rem;
+}
+.nav-item{
+  padding: 0 1.05rem;
+}
+
+
+.container-fluid{
+  padding: 25vh;
+}
+.col-lg-5{
+  padding: 30px;
+}
+.features2{
+  text-align: center;
+}
+.icon2{
+  padding-bottom: 1.5rem;
+}
+.first{
+  height: 70px;
+}
+.f-column{
+  font-size: 2rem;
+  font-weight: lighter;
+  padding-bottom: 5% ;
+}
+.s-column{
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+.number{
+  font-size: 60px;
+  font-weight: 300;
+}
+.col-lg-4
+{
+  justify-content: center;
+  align-items: center;
+}
+.btn .btn-white:hover{
+  background-color: black;
+  color: white;
+}
+.second-big{
+  background-color:white;
+padding-top:20%;
+padding-bottom:10%;
+
+}
+.heading{
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+.div-2-text{
+  color:grey;
+}
+.but{
+  padding-top: 5%;
+}
+.buttonmain-2{
+  width: 190px;
+height: 60px;
+font-size: 1rem;
+font-weight: bolder;
+background: linear-gradient(45deg, transparent 5%,  5%);
+border: 0;
+color: black;
+letter-spacing: 3px;
+}
+.buttonmain-2:hover{
+  background: linear-gradient(45deg, #f86f28 5%, black 25%);
+  transition: ease-in 500ms;
+  color:white;
+}
+.buttonmain{
+  width: 220px;
+height: 70px;
+font-weight: bolder;
+background: linear-gradient(45deg, transparent 5%,  5%);
+border: 0;
+color: #ffb31a;
+letter-spacing: 3px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 2, 0, 2) 0px 18px 36px -18px inset;
+outline: transparent;
+position: relative;
+user-select: none;
+}
+.buttonmain:hover{
+  transition: ease 500ms;
+  background: linear-gradient(45deg, white 5%, white 5%);
+color: #ff6600;
+}
+.wv{
+  text-decoration: none;
+  color:black;
+  font-size: 1.3rem;
+  font-family: "Dosis";
+}
+.wv:hover{
+  text-decoration: none;
+  color:#ff6600;
+}
+.icon1{
+  color:#ffb31a;
+}
+.icon1:hover{
+  color:#ffa366;
+}
+
+/* Our Causes */
+.cause1{
+  padding-top: 4rem;
+  text-align: center;
+}
+.testimonials{
+background-color:#FAF0E6;
+  padding-bottom: 0;
+  font-family: "Dosis";
+}
+.btnnew{
+  font-weight: bold;
+  background-color: #ffb31a;
+  border:none;
+}
+.btnnew:hover{
+  background-color: #f86f28;
+}
+.card-body{
+  text-align: center;
+}
+.cause1{
+  padding:5% 0;
+}
+.h2c{
+  font-size: 2.5rem;
+font-weight:normal;
+color: black;
+padding-bottom: 20px;
+}
+.pcause{
+  color: grey;
+  font-size: 1.3rem;
+}
+.donation-time{
+  color: grey;
+  font-style: italic;
+}
+.fund-raised{
+  padding-top: 10px;
+  font-family:"Overpass";
+}
+.progress-bar{
+  color:#f86f28;
+}
+.card-title{
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+
+/* DONATIONS */
+.donation-section{
+  font-family: "Dosis";
+  padding-bottom: 10%;
+}
+.imgd{
+  width:125px;
+  height:125px;
+  margin: 5%;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.staff{
+  text-align: center;
+}
+.staff{
+  padding: 2% 55px;
+  box-shadow: rgb(38, 57, 77) 0 20px 30px -10px;
+}
+.text-center{
+  padding-top: 5%;
+}
+.h2do{
+  font-size: 2.5rem;
+  font-family: "Dosis";
+font-weight:normal;
+color: black;
+padding-bottom: 20px;
+}
+.amount{
+  color: #90EE90;
+  font-size: 1.5rem;
+}
+.pdonate{
+  color:black;
+  font-size: 1.3rem;
+}
+.position{
+  padding-bottom: 10px;
+  font-size: 1rem;
+  color:grey;
+}
+.justify-content-center{
+  padding-bottom: 10%;
+}
+/* Gallery */
+
+.gallery{
+  margin: 0;
+  padding-bottom: 10%;
+  background-color: 	#FAF0E6;
+}
+.container{
+  padding-top: 10px;
+}
+.gah2{
+  padding-top: 5%;
+  text-align: center;
+}
+.imgh:hover{
+  opacity:0.5;
+}
+
+
+/* Contacts */
+
+.cta{
+  padding: 10%;
+  background: url(images/bg_2.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+  font-family: "Dosis";
+  color:white;
+  box-shadow: inset 2000px 0 0 0 rgba(245,122,55,0.7);
+  border-color: rgba(255, 140, 0, 1);
+}
+.endh2{
+  font-size: 2.5rem;
+}
+.label{
+  font-size: 1.5rem;
+}
+.btnmain{
+  width: 200px;
+height: 60px;
+font-family: "Overpass";
+font-size: 1.1rem;
+background: linear-gradient(45deg, transparent 0%, white  0%);
+border: 0;
+color: black;
+letter-spacing: 3px;
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+.btnmain:hover{
+  transition: ease 500ms;
+  background: linear-gradient(45deg, orange 10%, orange 10%);
+color: #ff6600;
+
+box-shadow: inset 1em 0 5em gold;
+}
+
+/* ENDING */
+.end{
+  font-family: "Dosis";
+  color: white;
+  background-color: #252525;
+  padding: 5% 0;
+}
+.first-col{
+  text-align: left;
+}
+.h2end{
+  font-weight: lighter;
+  font-size: 1.5rem;
+  line-height: 2;
+}
+.h2end span{
+  padding-bottom: 5px;
+           border-bottom-style: solid;
+           border-bottom-width: 1.5px;
+           width: fit-content;
+}
+.nav-link{
+color:#f86f28;
+font-weight: lighter;
+}
+.sitelink{
+  font-size: 1.25rem;
+  color: #f86f28;
+  font-weight: lighter;
+}
+.sitelist{
+  padding-bottom: 10px;
+}
+.lastp{
+  color:grey;
+  font-weight: lighter;
+  font-size: 1rem;
+}
+.second-col{
+  text-align: center;
+}
+.footer{
+  padding-top: 4%;
+  text-align: center;
+}
+.secondlist
+{
+  list-style: none;
+}
+.div1text{
+  font-size:1.025rem;
+}
+.div12text{
+  font-size: 1.025rem;
+}
+.card{
+  width: 22rem;
+}
+.cardimg{
+  height:220px;
+}
+.people{
+  color:#f86f28;
+}
+@media (max-width: 480px)  {
+  .title-div{
+    text-align: center;
+  }
+  .main-h1{
+    float:left;
+      font-size: 15px;
+  }
+  .slide{
+    text-align: center;
+  }
+.second-big{
+  padding-top: 70%;
+}
+.div-2-text{
+  font-size: 1.2rem;
+}
+.div1text{
+  font-size: 1.2rem;
+}
+.div12text{
+ font-size:1.2rem;
+}
+.card{
+  width:700px;
+}
+.cardimg{
+  height:400px;
+}
+.h2do{
+  font-size: 3.5rem;
+}
+.gah2{
+  padding-bottom: 50px;
+}
+.first-col{
+  text-align: left;
+}
+.second-col{
+  text-align: left;
+}
+.third-col{
+  text-align: left;
+}
+}
